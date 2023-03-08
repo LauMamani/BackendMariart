@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <title>MariArt - Productos</title>
+</head>
+
+<body>
+ <main> 
+   <!-- BARRA NAVEGACIÓN -->
+   <div class="container w-75 p-2 border mt-3">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <div>
+        <h2>MariArt</h2>
+      </div>
+      <div>
+        <button class="btn btn-dark btn-lg" id="productos" onclick="location.href='/'">
+          Productos
+        </button>
+      </div>
+      <div>
+        <button class="btn btn-dark btn-lg" id="carrito" onclick="location.href='/carrito'">
+          Carrito
+        </button>
+      </div>
+      <div>
+        <button class="btn btn-dark btn-lg" id="chatUsuario" onclick="location.href='/chatUsuario'">
+          Chat de Consultas
+        </button>
+      </div>
+      <div>
+        <button class="btn btn-dark btn-lg" id="logout" onclick="location.href='/logout'">
+          Desloguear
+        </button>
+      </div>
+    </li>
+   </div>
+
+   <!-- PRODUCTOS BD -->
+
+   <section class="container w-75 p-3 border mt-2">
+    <h4>PRODUCTOS</h4>
+    <hr>
+    <div class="row mt-3 mb-3" id="items"></div>
+   </section>
+  </main>
+  <template id="template-card">
+    <div class="col-12 mt-3 mb-3 col-md-4">
+      <div class="card">
+        <img src="" class="card-img-top" alt="Producto">
+        <div class="card-body">
+          <h5 class="title">Title</h5>
+          <p class="description"></p>
+          <h6 class="price">$ <span></span></h6>
+          <p class="category">Categoria: <span></span></p>
+          <button class="btn btn-dark">Agregar Producto</button>
+        </div>
+      </div>
+    </div>
+  </template>
+ <script src="./scripts/productos.js"></script>
+</body>
+</html>

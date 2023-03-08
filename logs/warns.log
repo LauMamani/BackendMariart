@@ -1,0 +1,45 @@
+[2023-02-24T16:19:34.512] [ERROR] default - Error- ContMongo - Funcion getById: CastError: Cast to ObjectId failed for value "63d783719504caa928cc" (type string) at path "_id" for model "productos"
+[2023-02-24T19:30:36.037] [ERROR] default - Error- ContMongo - Funcion getById: CastError: Cast to ObjectId failed for value "cuadro" (type string) at path "_id" for model "productos"
+[2023-02-25T11:48:41.426] [ERROR] default - Error- DaoCartMongo - Funcion save: CastError: Cast to embedded failed for value "{
+  id_prod: '63f91aff5963cf3806bcb373',
+  timestamp: 'https://firebasestorage.googleapis.com/v0/b/artemamani-313aa.appspot.com/o/cuadro1.png?alt=media&token=ce01a10e-8a24-46e6-950a-14367d30c8e2',
+  title: 'Mountains Duo',
+  description: 'Vinilo sobre madera.',
+  code: 1000,
+  thumbnail: 'cuadro',
+  price: undefined,
+  stock: undefined
+}" (type Object) at path "products" because of "CastError"
+[2023-02-25T12:00:57.396] [ERROR] default - Error- DaoCartMongo - Funcion save: ReferenceError: code is not defined
+[2023-02-25T12:10:58.747] [ERROR] default - Error- DaoCartMongo - Funcion save: ReferenceError: code is not defined
+[2023-02-25T23:15:44.671] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: addres: Path `addres` is required.
+[2023-02-25T23:17:33.893] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: addres: Path `addres` is required.
+[2023-02-25T23:33:07.734] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: addres: Path `addres` is required.
+[2023-02-27T10:14:32.796] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: CastError: Cast to ObjectId failed for value "63fbea5406442651a1460272221" (type string) at path "_id" for model "carritos"
+[2023-02-27T10:18:46.354] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: CastError: Cast to ObjectId failed for value "63fa6e91702b9b2400dac08885" (type string) at path "_id" for model "carritos"
+[2023-02-27T11:26:13.591] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T11:34:21.663] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T11:39:31.738] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: ReferenceError: ObjectId is not defined
+[2023-02-27T11:44:39.000] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: ReferenceError: ObjectId is not defined
+[2023-02-27T11:46:11.693] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: ReferenceError: ObjectId is not defined
+[2023-02-27T11:51:07.320] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T12:03:49.383] [ERROR] default - Error- DaoCartMongo - Funcion save: CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "carritos"
+[2023-02-27T12:13:37.610] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: ReferenceError: id_prod is not defined
+[2023-02-27T13:03:46.444] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T13:10:13.468] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T13:12:01.334] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T13:12:04.864] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T13:12:05.750] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T13:12:06.334] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T13:12:07.101] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-27T13:12:08.133] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: TypeError: this.col.findAndModify is not a function
+[2023-02-28T17:32:12.023] [ERROR] default - Error- DaoCartMongo - Funcion getCarritoByUsuario: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carritos"
+[2023-02-28T17:32:12.025] [ERROR] default - Error- DaoCartMongo - Funcion save: CastError: Cast to ObjectId failed for value "{ _id: 'undefined' }" (type Object) at path "_id" for model "carritos"
+[2023-03-05T21:28:15.653] [ERROR] default - Error- ContMongo - Funcion save: ObjectParameterError: Parameter "obj" to Document() must be an object, got 5/3/2023, 21:28:15
+[2023-03-07T16:04:28.397] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: email: Path `email` is required.
+[2023-03-07T16:08:11.390] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: email: Path `email` is required.
+[2023-03-07T16:08:11.401] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: email: Path `email` is required.
+[2023-03-07T16:14:14.455] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: email: Path `email` is required.
+[2023-03-07T16:14:14.464] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: email: Path `email` is required.
+[2023-03-07T16:50:23.527] [ERROR] default - Error- ContMongo - Funcion save: ValidationError: email: Path `email` is required.
+[2023-03-08T06:30:50.591] [ERROR] default - Error- ContMongo - Funcion getById: CastError: Cast to ObjectId failed for value "alfombra" (type string) at path "_id" for model "productos"

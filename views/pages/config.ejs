@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Info del Proceso</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid">
+  <main>
+    <div class="container w-75 p-2 border mt-2">
+      <h3 class="text-white bg-dark">Opcion seleccionada entre Prod / Desarrollo:</h3>
+      <div class="container w-50 p-3">
+        <ul>
+          <li>
+            <strong>Entorno de:</strong>
+            <p><%= node_env %></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container w-75 p-2 border mt-2">
+      <h3 class="text-white bg-dark">Variables de Entorno de Desarrollo</h3>
+      <div class="container w-50 p-3">
+        <ul>
+          <li>
+            <strong>Puerto:</strong>
+            <p><%= port_des %></p>
+          </li>
+          <li>
+            <strong>Tipo Base de Datos:</strong>
+            <p><%= tipo_des %></p>
+          </li>
+          <li>
+            <strong>Cadena de Conexion MongoDB:</strong>
+            <p><%= mongoConnect_des %></p>
+          </li>
+          <li>
+            <strong>Usuario Nodemailer:</strong>
+            <p><%= userMail_des %></p>
+          </li>
+          <li>
+            <strong>Password Nodemailer:</strong>
+            <p><%= passMail_des %></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container w-75 p-2 border mt-2">
+      <h3 class="text-white bg-dark">Variables de Entorno de Produccion</h3>
+      <div class="container w-50 p-3">
+        <ul>
+          <li>
+            <strong>Puerto:</strong>
+            <p><%= port_prod %></p>
+          </li>
+          <li>
+            <strong>Tipo Base de Datos:</strong>
+            <p><%= tipo_prod %></p>
+          </li>
+          <li>
+            <strong>Cadena de Conexion MongoDB:</strong>
+            <p><%= mongoConnect_prod %></p>
+          </li>
+          <li>
+            <strong>Usuario Nodemailer:</strong>
+            <p><%= userMail_prod %></p>
+          </li>
+          <li>
+            <strong>Password Nodemailer:</strong>
+            <p><%= passMail_prod %></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
