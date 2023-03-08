@@ -2,15 +2,14 @@
 
 > ### Descripción del Proyecto:
 
-<p>Aplicación Web desarrollada para la venta de Obras de Arte y Accesorios de Decoración.</p>
+ <p>Aplicación Web desarrollada para la venta de Obras de Arte y Accesorios de Decoración.</p>
 
 
 
 > ### Funcionamiento:
 
-
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/806141476?h=51892ef862" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
+   
+   ##### LINK VIDEO : https://vimeo.com/806141476/51892ef862
 
 
 El Proyecto cuenta con los siguientes módulos:
